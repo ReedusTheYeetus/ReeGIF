@@ -6,6 +6,9 @@ Based and inspired by GIF Player CE by: Andres Sevilla (https://www.ti84calcwiz.
 Instuctions to add GIFs:
 
 Convert GIF into indvidual frames
+
 Send frames to calculator (IN ORDER)
+
 Run ReeGIF and select "2:Display GIF"
+
 Done!
