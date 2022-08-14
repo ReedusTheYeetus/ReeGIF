@@ -1,0 +1,101 @@
+Put this into "TI Connect CE" to edit and port to your calculator
+
+Code:
+
+Lbl 0
+
+CoordOff
+GridOff
+AxesOff
+LabelOff
+ExprOff
+
+ClrHome
+Menu("     Welcome to ReeGIF    ","How To Use",1,"Display GIF",2,"Credits & Version",3,"Exit Program",4
+
+Lbl 1
+ClrHome
+Menu("How To Use","Importing GIFs",A,"Extra Information",B,"Back",C
+
+Lbl A
+ClrHome
+Disp "Importing GIFs"
+Disp " "
+Disp "To import a GIF you must:"
+Disp "Covert GIFs to images"
+Disp "  Ex: .PNG,.JPG,.JPEG,etc"
+Disp "Send imgs to your TI-84+CE"
+Disp "  IN ORDER"
+Disp " "
+Disp "        Press Enter"
+Repeat getKey=105
+End
+Disp " "
+Disp "Open this program and"
+Disp "  select '2:Display GIF'"
+Disp " "
+Disp "     TADA! You did it!"
+Repeat getKey=105
+End
+Goto 1
+
+Lbl B
+ClrHome
+Disp "Extra Info"
+Disp "--------------"
+Disp "The only way to exit"
+Disp "  the GIF is to press"
+Disp "   the ON button"
+Disp "Max frames is 10"
+Disp "Updates coming soon!"
+Repeat getKey=105
+End
+Goto 1
+
+Lbl C
+Goto 0
+
+Lbl 2
+DispGraph
+ClrDraw
+
+BackgroundOn Image0
+ClrDraw
+BackgroundOn Image1
+ClrDraw
+BackgroundOn Image2
+ClrDraw
+BackgroundOn Image3
+ClrDraw
+BackgroundOn Image4
+ClrDraw
+BackgroundOn Image5
+ClrDraw
+BackgroundOn Image6
+ClrDraw
+BackgroundOn Image7
+ClrDraw
+BackgroundOn Image8
+ClrDraw
+BackgroundOn Image9
+ClrDraw
+Goto 2
+Repeat getKey=105
+End
+Goto 0
+
+Lbl 3
+ClrHome
+Disp "Created by:"
+Disp "   ReedusTheYeetus"
+Disp " "
+Disp " "
+Disp "         Version:"
+Disp " "
+Disp "       Release 1.0.0"
+Repeat getKey=105
+End
+Goto 0
+
+Lbl 4
+Stop
